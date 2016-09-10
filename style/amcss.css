@@ -1,0 +1,27 @@
+﻿body {
+    padding:0px;
+    margin:0px;
+    background-color:white;
+}
+img {
+    border: 0px;
+}
+table {
+    border-collapse: collapse;
+}
+.dh {
+    font-size: 16px;
+    color: white;
+    text-decoration:none;
+    padding:16px;
+    float:left;
+    background-color:black;
+}
+.dh:hover {
+    font-size: 16px;
+    color: white;
+    text-decoration:none;
+    padding:16px;
+    float:left;
+    background-color:#fb0404;
+}

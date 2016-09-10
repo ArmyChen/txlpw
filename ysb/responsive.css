@@ -1,0 +1,119 @@
+/*
+Free Html5 Responsive Templates
+Author: Kimmy
+Author URI: http://www.cssmoban.com/
+Facebook : http://www.facebook.com/responsivehtml5css3themes
+Twitter : http://twitter.com/r53themes
+*/
+html {
+   -webkit-text-size-adjust: none;
+}
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+img{
+	max-width:100%;
+	height: auto;
+   	width: auto\9; /* ie8 */
+}
+
+@media only screen and (min-width: 768px)  {
+	.liYou2_con1 p { padding:10px 0 0 0; -webkit-line-clamp: 3; line-height:25px;}
+	.liYou2_con2 .liYouName em , .liYou2_con2 .liYouName1 em{ display: inline-block; float:right;}
+	.liYou2_con2 .liYouTitle, .liYou2_con2 .liYouName , .liYou2_con2 .liYouTitle1, .liYou2_con2 .liYouName1{ font-size:1em;}
+	.ms_foodCon1_one h3 { font-size:1.2em; margin:10px 0 0 0; font-weight:bold;}
+	.ms_foodCon1_one p img { width:6%; max-width:20px;}
+	.ms_foodCon1_one p { font-size:1em; padding:10px 0 0 0;}
+	.ms_menu h3 { font-size:1.2em;}
+	.ms_food_store h3 { margin:5px 0 0 0;}
+	.ms_food_store p { margin:6px 0 0 0;}
+	.ms_food_store .group { margin:5px 0 0 0;}
+	.ms_food_store .ms_postion span { font-size:1em;}
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:20px; margin:7px 0 0 0;}
+	.shopCar2_con2 h3 {  -webkit-line-clamp:2;}
+	.shopCar2_con2 h3 { margin:5px 0 0 0;}
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	.liYou2_con1 p { padding:10px 0 0 0; -webkit-line-clamp: 3; line-height:25px;}
+	.liYou2_con2 .liYouName em , .liYou2_con2 .liYouName1 em{ display: inline-block; float:right;}
+	.liYou2_con2 .liYouTitle, .liYou2_con2 .liYouName , .liYou2_con2 .liYouTitle1, .liYou2_con2 .liYouName1{ font-size:1em;}
+	.ms_foodCon1_one h3 { font-size:1.2em; margin:10px 0 0 0; font-weight:bold;}
+	.ms_foodCon1_one p img { width:6%; max-width:20px;}
+	.ms_foodCon1_one p { font-size:1em; padding:10px 0 0 0;}
+	.ms_menu h3 { font-size:1.2em;}
+	.ms_food_store h3 { margin:5px 0 0 0;}
+	.ms_food_store p { margin:6px 0 0 0;}
+	.ms_food_store .group { margin:5px 0 0 0;}
+	.ms_food_store .ms_postion span { font-size:1em;}
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:20px; margin:7px 0 0 0;}
+	.shopCar2_con2 h3 {  -webkit-line-clamp:2;}
+	.shopCar2_con2 h3 { margin:5px 0 0 0;}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	.liYou2_con1 p { padding:10px 0 0 0; -webkit-line-clamp: 3; line-height:25px;}
+	.liYou2_con2 .liYouName em, .liYou2_con2 .liYouName1 em { display: inline-block; float:right;}
+	.liYou2_con2 .liYouTitle, .liYou2_con2 .liYouName, .liYou2_con2 .liYouTitle1, .liYou2_con2 .liYouName1 { font-size:1em;}
+	.ms_foodCon1_one h3 { font-size:1.2em; margin:10px 0 0 0; font-weight:bold;}
+	.ms_foodCon1_one p img { width:6%; max-width:20px;}
+	.ms_foodCon1_one p { font-size:1em; padding:10px 0 0 0;}
+	.ms_menu h3 { font-size:1.2em;}
+	.ms_food_store h3 { margin:5px 0 0 0;}
+	.ms_food_store p { margin:6px 0 0 0;}
+    .ms_food_store .group { margin:5px 0 0 0;}
+	.ms_food_store .ms_postion span { font-size:1em;}
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:23px;}
+	.shopCar2_con1 p  { font-size:1em; }
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:20px; margin:7px 0 0 0;}
+	.shopCar2_con2 h3 {  -webkit-line-clamp:2;}
+	.shopCar2_con2 h3 { margin:5px 0 0 0;}
+
+}
+
+@media only screen and (min-width: 384px) and (max-width: 479px) {
+	.liYou2_con1 p { padding:5px 0 0 0; -webkit-line-clamp: 2; line-height:28px;  }
+	.liYouName em, .liYou2_con2 .liYouName1 em { display:block; padding:3px 0 0 0;}
+	.liYou2_con2 .liYouTitle, .liYou2_con2 .liYouName, .liYou2_con2 .liYouTitle1, .liYou2_con2 .liYouName1 { font-size:.857em;}
+	.ms_foodCon1_one h3 { font-size:1.3em; margin:13px 0 0 0; font-weight:bold;}
+	.ms_foodCon1_one p img { width:6%; max-width:20px;}
+	.ms_foodCon1_one p { font-size:1.2em; padding:8px 0 0 0;}
+	.ms_menu h3, .ms_food_store .ms_postion span { font-size:1em;}
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:23px;}
+	.shopCar2_con1 p  { font-size:1em; }
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:20px; margin:3px 0 0 0;}
+	.shopCar2_con2 h3 {  -webkit-line-clamp:2;}
+
+}
+
+@media only screen and (min-width: 320px) and ( max-width:383px) {
+	.liYou2_con1 p { padding:5px 0 0 0; -webkit-line-clamp: 2; line-height:28px;  }
+	.liYouName em, .liYou2_con2 .liYouName1 em { display:block; padding:3px 0 0 0;}
+	.liYou2_con2 .liYouTitle, .liYou2_con2 .liYouName, .liYou2_con2 .liYouTitle1, .liYou2_con2 .liYouName1 { font-size:.857em;}
+	.ms_foodCon1_one h3 { font-size:1.5em; margin:10px 0 0 0; font-weight:bold;}
+	.ms_foodCon1_one p img { width:6%; max-width:20px; }
+	.ms_foodCon1_one p { font-size:1em; padding:6px 0 0 0; }
+	.ms_menu h3, .ms_food_store h3 { font-size:1em;}
+	.ms_food_store .ms_postion span {font-size:.857em;}
+	.ms_food_store p { margin:2px 0 0 0;}
+	.ms_food_store p em ,.ms_food_store p i { margin:3px 0 0 2px;}
+	.ms_shop_xiang span i { display:block;}
+    .shopCar2_con1 h3 { font-size:1em;}
+	.shopCar2_con1 h3 , .shopCar2_con1 p {  line-height:20px;}
+	.shopCar2_con1 p  { font-size:.8em; }
+	.shopCar2_con2 h3 {  -webkit-line-clamp:1;}
+	
+	
+}

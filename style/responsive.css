@@ -1,0 +1,157 @@
+@charset "utf-8";
+@media only screen and  (min-width: 960px) {
+	
+	.model1 span { bottom:25px; font-size:1.2em;}
+	
+	.model3 input[type="text"] { width:20%; margin:0 10px 0 0; } 
+	.model3 p input[type="submit"] { width:74%; margin:15px 0 0 98px;} 
+	.model5 input[type="text"] { width:65%;}
+	
+	.ul3 li select { width:31%;}
+	.model5 i { width:32%;}
+	.model5 i select, #jia1 { width:66%;/* width:93px;*/ }
+	
+	.model7 select { width:31%;}
+	#country select { width:97%; }
+	.tongAddre select { width:31%; }
+	.loginBtn1 p b { float:left;}
+	.loginBtn1 p em { float:right;}
+	}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.model1 span { bottom:25px; font-size:1.2em;}
+	
+	.model3 input[type="text"] { width:20%; margin:0 10px 0 0; } 
+	.model3 p input[type="submit"] { width:74%; margin:15px 0 0 98px;} 
+	.model5 input[type="text"] { width:65%;}
+	
+	.ul3 li select { width:31%;}
+	.model5 i { width:32%;}
+	.model5 i select, #jia1 { width:66%;/* width:93px;*/ }
+	
+	.model7 select { width:31%;}
+	#country select { width:97%; }
+	.tongAddre select { width:31%; }
+	.loginBtn1 p b { float:left;}
+	.loginBtn1 p em { float:right;}
+}
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+@media only screen and (min-width: 620px) and (max-width: 767px) {
+	
+	.model1 span { bottom:20px; font-size:1.2em;}
+	.model3 input[type="text"] { width:20%; margin:0 10px 0 0; } 
+	.model3 p input[type="submit"] { width:74%; margin:15px 0 0 98px;} 
+	.model5 input[type="text"] { width:60%;}
+	
+	.ul3 li select { width:31%;}
+	.model5 i { width:32%;}
+	.model5 i select, #jia1 { width:66%;/* width:93px;*/ }
+	
+	.model7 select { width:31%;}
+	#country select { width:97%; }
+	.tongAddre select { width:31%; }
+	.loginBtn1 p b { float:left;}
+	.loginBtn1 p em { float:right;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 619px) {
+	.model1 span { bottom:20px; font-size:1.2em; }
+	
+	.model3 input[type="text"] { width:20%; margin:0 10px 0 0; } 
+	.model3 p input[type="submit"] { width:75%; margin:15px 0 0 98px;} 
+	
+	.model5 input[type="text"] { width:50%;}
+	
+	
+	.ul3 li select { width:31%;}
+	.model5 i { width:32%;}
+	.model5 i select, #jia1 { width:66%;/* width:93px;*/ }
+	
+	.model7 select { width:31%;}
+	#country select { width:97%; }
+	.tongAddre select { width:31%; }
+	.loginBtn1 p b { float:left;}
+	.loginBtn1 p em { float:right;}
+}
+
+@media only screen and ( min-width: 375px) and ( max-width: 479px) {
+	.model1 span { bottom:7px; font-size:1em; }
+	.model2  .box { width:300px; }
+	
+	.model3 input[type="text"] { width:91%; margin:15px 0 0 0;}
+	.model3 p input[type="submit"] { width:98%; margin:15px 0 0 0;} 
+	
+	.model5 input[type="text"] { width:60%;}
+	.model5 span { width:23%;}
+	
+	
+	.ul3 li select { width:95%;}
+	.model5 i { width:48%;}
+	.model5 i select, #jia1 { width:65%;/* width:93px;*/ }
+	
+	.model7 select { width:95%;}
+	#country select { width:95%; }
+	
+	.tongAddre select { width:95%; }
+	.loginBtn1 p b { float:left;}
+	.loginBtn1 p em { float:right;}
+}
+
+@media only screen and ( min-width: 310px) and ( max-width: 374px) {
+	.model1 span { bottom:7px; font-size:1em; }
+	.model2  .box { width:300px; }
+	
+	.model3 input[type="text"] { width:91%; margin:15px 0 0 0;}
+	.model3 p input[type="submit"] { width:98%; margin:15px 0 0 0;} 
+	
+	.model5 input[type="text"] { width:60%;}
+	.model5 span { width:23%;}
+	
+	
+	.ul3 li select { width:95%;}
+	.model5 i { width:48%;}
+	.model5 i select, #jia1 { width:65%;/* width:93px;*/ }
+	
+	.model7 select { width:95%;}
+	#country select { width:95%; }
+	
+	.information span b { display:block;}
+	
+	.tongAddre select { width:95%; }
+	.loginBtn1 b { display:block;}
+	
+
+	.loginBtn1 p em { display:block; }
+
+}
+
+@media only screen and ( min-width: 310px) and ( max-width: 414px) {
+	.model1 span { bottom:7px; font-size:1em; }
+	.model2  .box { width:300px; }
+	
+	.model3 input[type="text"] { width:91%; margin:15px 0 0 0;}
+	.model3 p input[type="submit"] { width:98%; margin:15px 0 0 0;} 
+	
+	.model5 input[type="text"] { width:60%;}
+	.model5 span { width:23%;}
+	
+	
+	.ul3 li select { width:95%;}
+	.model5 i { width:48%;}
+	.model5 i select, #jia1 { width:65%;/* width:93px;*/ }
+	
+	.model7 select { width:95%;}
+	#country select { width:95%; }
+	
+	.information span b { display:block;}
+	
+	.tongAddre select { width:95%; }
+	.loginBtn1 b { display:block;}
+	
+
+	.loginBtn1 p em { display:block; }
+
+}
