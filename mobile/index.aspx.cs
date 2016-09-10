@@ -15,7 +15,11 @@ public partial class mobile_index : System.Web.UI.Page
         if (!IsPostBack)
         {
             string cityname = "";
-            string city = Request.QueryString["city"];
+            string city = Request.QueryString["cname"];
+            string citytruename = Request.QueryString["citytruename"];
+            if(city == ""){
+                city = citytruename;
+            }
             if (city == null)
             {
                 if (Request.Cookies["txlpcity"] != null)
@@ -110,7 +114,7 @@ public partial class mobile_index : System.Web.UI.Page
                                     zhi = dt["mname"].ToString();
                                 }
                             }
-                            this.Label4.Text += "<div onclick=hq("+dt["id"].ToString()+") style='padding:20px 10px 20px 10px; position:relative; z-index:1; border-bottom:1px solid #e8e8e8; clear:both;'><a href='xq.aspx?xid=" + dt["id"].ToString() + "' style=' text-decoration:none;display:block'><div style='padding-top:10px; clear:both;'><a href='xq.aspx?xid=" + dt["id"].ToString() + "' style='font-size:1.1em; color:#323232; text-decoration:none;'><font face='微软雅黑'><b>" + zhi + "</b></font></a></div><div style='padding-top:10px; clear:both;'><span style='font-size:14px; color:#888888; text-decoration:none;'><font face='宋体'>" + dt["mchandi"].ToString() + "</font></span></div></a><a href='tel:" + dt["mlxdh"].ToString() + "' mce_href='tel:" + dt["mlxdh"].ToString() + "'><img src='images/dhtb.png' style='border:0px; width:50px; position:absolute; top:30px; right:6px; z-index:999; height:50px;'/></a></div>";
+                            this.Label4.Text += "<div onclick=hq("+dt["id"].ToString()+") style='padding:20px 10px 20px 10px; position:relative; z-index:1; border-bottom:1px solid #e8e8e8; clear:both;'><a href='xq.aspx?xid=" + dt["id"].ToString() + "' style=' text-decoration:none;display:block'><div style='padding-top:10px; clear:both;'><a href='xq.aspx?xid=" + dt["id"].ToString() +"&citytruename="+ citytruename + "' style='font-size:1.1em; color:#323232; text-decoration:none;'><font face='微软雅黑'><b>" + zhi + "</b></font></a></div><div style='padding-top:10px; clear:both;'><span style='font-size:14px; color:#888888; text-decoration:none;'><font face='宋体'>" + dt["mchandi"].ToString() + "</font></span></div></a><a href='tel:" + dt["mlxdh"].ToString() + "' mce_href='tel:" + dt["mlxdh"].ToString() + "'><img src='images/dhtb.png' style='border:0px; width:50px; position:absolute; top:30px; right:6px; z-index:999; height:50px;'/></a></div>";
                         }
                     }
                 //}
@@ -139,7 +143,7 @@ public partial class mobile_index : System.Web.UI.Page
                         zhi = dt["mname"].ToString();
                     }
                 }
-                this.Label1.Text += "<a href='xq.aspx?xid=" + dt["id"].ToString() + "' style=' text-decoration:none;display:block'><div onclick=hq(" + dt["id"].ToString() + ") style='padding:20px 10px 20px 10px; position:relative; z-index:1; border-bottom:1px solid #e8e8e8; clear:both;'><div style='padding-top:10px; clear:both;'><a href='xq.aspx?xid=" + dt["id"].ToString() + "' style='font-size:1.1em; color:#323232; text-decoration:none;'><font face='微软雅黑'><b>" + zhi + "</b></font></a></div><div style='padding-top:10px; clear:both;'><span style='font-size:14px; color:#888888; text-decoration:none;'><font face='宋体'>" + dt["mchandi"].ToString() + "</font></span></div><a href='tel:" + dt["mlxdh"].ToString() + "' mce_href='tel:" + dt["mlxdh"].ToString() + "'><img src='images/dhtb.png' style='border:0px; width:50px; position:absolute; top:30px; right:6px; z-index:999; height:50px;'/></a></div></a>";
+                this.Label1.Text += "<a href='xq.aspx?xid=" + dt["id"].ToString() + "' style=' text-decoration:none;display:block'><div onclick=hq(" + dt["id"].ToString() + ") style='padding:20px 10px 20px 10px; position:relative; z-index:1; border-bottom:1px solid #e8e8e8; clear:both;'><div style='padding-top:10px; clear:both;'><a href='xq.aspx?xid=" + dt["id"].ToString() +"&citytruename="+ citytruename + "' style='font-size:1.1em; color:#323232; text-decoration:none;'><font face='微软雅黑'><b>" + zhi + "</b></font></a></div><div style='padding-top:10px; clear:both;'><span style='font-size:14px; color:#888888; text-decoration:none;'><font face='宋体'>" + dt["mchandi"].ToString() + "</font></span></div><a href='tel:" + dt["mlxdh"].ToString() + "' mce_href='tel:" + dt["mlxdh"].ToString() + "'><img src='images/dhtb.png' style='border:0px; width:50px; position:absolute; top:30px; right:6px; z-index:999; height:50px;'/></a></div></a>";
             }
             if (this.Label4.Text == "")
             {

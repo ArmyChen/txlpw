@@ -22,6 +22,11 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+<script src="js/jquery-1.9.1.js" type="text/javascript"></script>
+<script src="js/jquery.lazyload.js" type="text/javascript"></script>
+<script>
+    $("img.lazy").lazyload();
+</script>
 </head>
 <body>
     <form id="form1" runat="server">
